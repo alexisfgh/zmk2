@@ -22,9 +22,13 @@
 #    shield: sofle_left
 #  - board: nice_nano_v2
 #    shield: sofle_right
+
+
 include:
   - board: nice_nano_v2
-    shield: sofle_left nice_oled
+    shield: sofle_left nice_view_adapter nice_view_display
     snippet: studio-rpc-usb-uart
   - board: nice_nano_v2
-    shield: sofle_right nice_oled
+    shield: sofle_right nice_view_adapter nice_view_display
+  - board: nice_nano_v2
+    shield: settings_reset
